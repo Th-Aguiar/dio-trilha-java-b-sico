@@ -1,4 +1,4 @@
-package list.OperacoeBasica;
+package list.OperacoeBasica.ExemploLista;
 
 public class Tarefa {
     //Atributo
@@ -13,8 +13,9 @@ public class Tarefa {
         return this.descricao;
     }
 
-    public void setDescricao(String descricao){
-        this.descricao = descricao;
+    @Override
+    public String toString() {   
+        return descricao;
     }
 
 }
