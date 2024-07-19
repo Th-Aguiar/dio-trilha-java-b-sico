@@ -23,4 +23,16 @@ public class Item {
         return this.quantidade;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Item{");
+        sb.append("nome=").append(nome);
+        sb.append(", preco=").append(preco);
+        sb.append(", quantidade=").append(quantidade);
+        sb.append('}');
+        return sb.toString();
+    }
+
+    
 }
